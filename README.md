@@ -1,6 +1,4 @@
-Here’s a **README.md** template for your project:
 
----
 
 # Task Manager Application
 
@@ -15,7 +13,6 @@ Task Manager Application is a fully responsive and feature-rich web application 
 - **Filtering**: Filter tasks by status (completed/in-progress).
 - **Pagination**: Displays tasks in batches of 10 per page.
 - **Modal View**: View detailed task information in a modal.
-- **Grouping**: Tasks are grouped by category.
 - **Responsive Design**: Fully responsive for all devices.
 - **User Authentication**: Role-based user authentication.
 
@@ -26,7 +23,7 @@ Task Manager Application is a fully responsive and feature-rich web application 
 - **Frontend**: React, Tailwind CSS
 - **State Management**: React Hooks (useState, useEffect)
 - **Testing**: React Testing Library, Jest
-- **Deployment**: Deployed on [Your Deployment Platform]
+- **Deployment**: Deployed on [Vercel]
 
 ---
 
@@ -34,7 +31,7 @@ Task Manager Application is a fully responsive and feature-rich web application 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/task-manager.git
+   git clone https://github.com/ShaileshVSavani/Task-Management.git
    cd task-manager
    ```
 
@@ -59,31 +56,10 @@ Task Manager Application is a fully responsive and feature-rich web application 
 ## Deployment
 
 The project is live and can be accessed here:  
-[**Live Demo**](https://your-deployment-link.com)
+[**Live Demo**](https://task-management-ecru-two.vercel.app/)
 
 ---
 
-## Folder Structure
-
-```
-src/
-├── components/
-│   ├── User/
-│   │   ├── User.js          // Main User component
-│   │   ├── TaskList.js      // Task list component
-│   │   ├── Modal.js         // Modal component
-│   │   └── UserForm.js      // Form component
-├── __tests__/
-│   ├── UserForm.test.js
-│   ├── TaskList.test.js
-│   └── Modal.test.js
-├── App.js
-├── index.js
-└── styles/
-    └── Tailwind.css
-```
-
----
 
 ## Features in Detail
 
