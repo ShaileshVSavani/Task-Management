@@ -56,7 +56,7 @@ const Register = () => {
     login(newUser);
   
     toast.success('Registration successful!');
-    navigate(newUser.role === 'admin' ? '/admin-dashboard' : '/user-dashboard');
+    navigate(newUser.role === 'admin' ? '/admin' : '/user');
   };
   
 
